@@ -18,6 +18,6 @@ setInterval(() => {
 
     sc.style.transform = `rotate(${sec*6}deg)`
     mn.style.transform = `rotate(${min*6}deg)`
-    hr.style.transform = `rotate(${hour*30}deg)`
+    hr.style.transform = `rotate(${hour*30+(min/12)}deg)`
     
 }, 1000);
